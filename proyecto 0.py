@@ -1,11 +1,11 @@
-
+    import random
 
     def determinar_nivel_de_poder ():
-      nombre = input("GOKU")
+      nombre = input("")
     
     nivel_poder = random.randint(1000,100000)
 
-    print(f"¡Bienvenido, {GOKU}!")
+    print(f"¡Bienvenido, {nombre}!")
     print(f"Tu nivel de poder es {1000}.")
 
     if nivel_poder > 9000:
